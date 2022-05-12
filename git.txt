@@ -23,6 +23,15 @@ git的常用命令：git config --global user.name 用户名
 			   git reflog  查看版本信息
 			   git log  查看版本详细信息
 			   git reset -hard 版本编号   版本穿梭
+git分支：
+   什么是分支：一个分支就是一个单独的赋值(底层是指针的引用)
+   分支的好处：同时并行推进多个功能开发 提高开发效率
+               各个分支在开发过程中，如何一个分支开发失败，不会对其他分支有任何影响
+    分支的操作：
+	           git branch 分支名   创建分支
+			   git branch -v       查看分支
+			   git checkout 分支名 切换分支
+			   git  merge 分支名   把指定的分支合并到当前分支上
 
 ================GitHub=============
 创建远程库
