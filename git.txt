@@ -19,7 +19,9 @@ git的常用命令：git config --global user.name 用户名
 			   git status 查看本地库状态
 			   git add 文件名 添加暂停区
 			   git rm --cached 删除的文件名  将文件从暂停区中删除
-			   git commit -m"日志信息" 文件名 提交到本地仓库
+			   git commit -m"日志信息(第一次提交)" 文件名 提交到本地仓库
+			   git reflog  查看版本信息
+			   git log  查看版本详细信息
 
 ================GitHub=============
 创建远程库
