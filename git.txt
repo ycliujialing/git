@@ -36,8 +36,14 @@ git分支：
 
 ================GitHub=============
 创建远程库
+  创建远程库别名
+  git remote -v 查看别名
+  https://github.com/ycliujialing/git.git
+  git remote add 别名 github源辰库的地址
 代码推送 Push
+  git push 别名(或链接)  分支(master) 
 代码拉去 Pull
+  git pull 别名(或链接)  分支(master)
 代码克隆 Clone
 SSH免密登录
 Idea继承GitHub
